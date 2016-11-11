@@ -11,7 +11,7 @@ A countdown time directive for angular.
 2. write your element like this.
 
     ```js
-    <div countdown-time time-end="{{timeEnd}}" time-end-callback="doSomething()">
+    <div countdown-time time-end="2016-12-25T12:00:00" time-end-callback="doSomething()">
       {{dMinutes}}{{uMinutes}}:{{dSeconds}}{{uSeconds}}
     </div>
     ```
